@@ -14,7 +14,7 @@ class ControlTree():
     Manually creates a new node as a child of the current position node. 
     '''
     def manual_add_node(self, node):
-        if self.head == None: # If the tree is empty
+        if self.head is None: # If the tree is empty
             self.head = node
             self.position = self.head
             self.size += 1
